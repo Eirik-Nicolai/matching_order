@@ -1,0 +1,17 @@
+[package]
+name = "matching_orders"
+version = "0.1.0"
+edition = "2018"
+authors = ["ENOO <eirik.n.o.oseberg@gmail.com"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "trading_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "bin"
+path = "src/main.rs"
+
+[dependencies]
